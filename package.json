@@ -1,0 +1,20 @@
+{
+  "name": "winston-transport-http",
+  "version": "0.0.1",
+  "description": "Example winston transport",
+  "main": "winston-http.js",
+  "dependencies": {
+    "echo-server": "^0.4.0",
+    "mkdirp": "^0.5.0",
+    "winston": "^2.1.1"
+  },
+  "scripts": {
+    "start": "sudo nodejs lib/winston-http.js",
+    "lint": "jshint lib/"
+  },
+  "author": "ebby@scypho.com",
+  "license": "",
+  "publishConfig": {
+    "registry": "https://scypho.artifactoryonline.com/scypho/api/npm/npm-local"
+  }
+}
